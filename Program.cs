@@ -32,9 +32,13 @@ namespace G_Net_40_OOP02
             //}
             #endregion
             #region Question 3 (therotical)
-//a)it is called an indexer it make you use the object like an array with[]
-//b) it throws an error(out of range) To make it safer check the index before using it
-//c)yes we can overload indexers
+            //a)it is called an indexer it make you use the object like an array with[]
+            //b) it throws an error(out of range) To make it safer check the index before using it
+            //c)yes we can overload indexers
+            #endregion
+            #region Question 4 (therotical)
+           // a)static means it belongs to the clas not each object.TotalOrders is shared but item is different for every object
+            //b)no because item belongs to an object and static methods don’t have an object
             #endregion
         }
     }
