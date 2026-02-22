@@ -40,7 +40,7 @@ namespace G_Net_40_OOP02
         }
         #endregion
    #region part 2 question 2
-        static int ticketcounter = 0;
+       private static int ticketcounter = 0;
         private int ticketid;
         public int getTicketId()
         {
@@ -51,10 +51,11 @@ namespace G_Net_40_OOP02
             ticketcounter++;
             ticketid = ticketcounter;
         }
-        public int GetTotalTicketsSold()
+      public  static int GetTotalTicketsSold()
         {
             return ticketcounter;
         }
         #endregion
+
     }
 }
