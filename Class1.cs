@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace G_Net_40_OOP02
 {
-    internal enum TicketType
+    public enum TicketType
     {
         Standard,
         VIP,
         IMAX
     }
-    struct Seat
+   public struct Seat
     {
         public char Row;
         public int Number;
