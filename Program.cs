@@ -37,8 +37,11 @@ namespace G_Net_40_OOP02
             //c)yes we can overload indexers
             #endregion
             #region Question 4 (therotical)
-           // a)static means it belongs to the clas not each object.TotalOrders is shared but item is different for every object
+            // a)static means it belongs to the clas not each object.TotalOrders is shared but item is different for every object
             //b)no because item belongs to an object and static methods don’t have an object
+            #endregion
+            #region Part 2 
+
             #endregion
         }
     }
