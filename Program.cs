@@ -43,8 +43,6 @@ namespace G_Net_40_OOP02
             #endregion
             #region part 2 question 5
             Cinema cinema = new Cinema();
-
-            // Create a new Movieticket for each iteration so each stored ticket is a distinct object
             for (int i = 1; i < 4; i++)
             {
                 Movieticket ticket = new Movieticket();
