@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel;
 using System.Runtime.Intrinsics.X86;
+using System.Xml.Linq;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace G_Net_40_OOP02
@@ -18,18 +19,23 @@ namespace G_Net_40_OOP02
             // Example
             //class rectangle {
             //private double width;
-          //private double height;
-         //public Rectangle(double w, double h)
-        //    {
-    //        width = w;
-    //        height = h;
-    //        }
-   // public double Area
-    // {
-    // get { return width * height; }  
-    //
-    //}
-    #endregion
-}
+            //private double height;
+            //public Rectangle(double w, double h)
+            //    {
+            //        width = w;
+            //        height = h;
+            //        }
+            // public double Area
+            // {
+            // get { return width * height; }  
+            //
+            //}
+            #endregion
+            #region Question 3 (therotical)
+//a)it is called an indexer it make you use the object like an array with[]
+//b) it throws an error(out of range) To make it safer check the index before using it
+//c)yes we can overload indexers
+            #endregion
+        }
     }
 }
