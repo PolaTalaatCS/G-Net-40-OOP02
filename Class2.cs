@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace G_Net_40_OOP02
 {
     #region part 2 question 1
-    internal class Movieticket
+    public class Movieticket
     {
         private string moviename;
         private double price;
@@ -39,7 +39,7 @@ namespace G_Net_40_OOP02
             get { return price + (price * 14 / 100); }
         }
         #endregion
-        #region part 2 question 2
+   #region part 2 question 2
         static int ticketcounter = 0;
         private int ticketid;
         public int getTicketId()
@@ -55,6 +55,6 @@ namespace G_Net_40_OOP02
         {
             return ticketcounter;
         }
-        #endregion 
+        #endregion
     }
 }
