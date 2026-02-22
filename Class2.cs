@@ -38,6 +38,23 @@ namespace G_Net_40_OOP02
         {
             get { return price + (price * 14 / 100); }
         }
+        #endregion
+        #region part 2 question 2
+        static int ticketcounter = 0;
+        private int ticketid;
+        public int getTicketId()
+        {
+            return ticketid;
+        }
+        public Movieticket()
+        {
+            ticketcounter++;
+            ticketid = ticketcounter;
+        }
+        public int GetTotalTicketsSold()
+        {
+            return ticketcounter;
+        }
+        #endregion 
     }
-    #endregion
 }
