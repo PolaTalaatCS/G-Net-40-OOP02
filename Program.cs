@@ -11,9 +11,9 @@ namespace G_Net_40_OOP02
         static void Main(string[] args)
         {
             #region Question 1 (therotical)
-            //a) anyone can change the data directly and there is no validation or control over how the data is modified
-            //b) make attributes private and use properties(get/set) to control access and add validation
-            //c) because they break encapsulation so any code can change the data freely that make the program unsafe and harder to control and harder to maintain
+           //a) anyone can change the data directly and there are no validation or control over how the data is modified
+           //b) make attributes private and use properties(get/set) to control access and add validations
+         //c) because they break encapsulation so any code can change the data freely that make the programs unsafe and harder to control and harder to maintain
             #endregion
             #region Question 2 (therotical)
             // field  direct data storage and no validation but property controlled access and can validate , yes can contain logic
